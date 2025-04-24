@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PT. BPKI - Profesional IT Solutions</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
-    <!-- Header dengan Logo dan Menu -->
-    <header>
+    <!-- Section 1: Navigation -->
+    <section class="navigation">
         <div class="container">
             <div class="logo">
                 <img src="images/logo-bpki.png" alt="Logo PT. BPKI">
@@ -18,41 +19,138 @@
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Portofolio</a></li>
                     <li><a href="#">Harga</a></li>
-                    <li class="dropdown">
-                        <a href="#">Layanan</a>
-                        <ul class="dropdown-content">
-                            <li><a href="#">Web Development</a></li>
-                            <li><a href="#">Mobile App</a></li>
-                            <li><a href="#">Cloud Services</a></li>
-                        </ul>
-                    </li>
                     <li><a href="#">Kontak</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </section>
 
-    <!-- Konten Utama -->
-    <main class="container">
-        <section class="hero">
-            <h1>Selamat Datang di PT. BPKI</h1>
-            <p>Solusi IT Profesional untuk Bisnis Anda</p>
-        </section>
-    </main>
+    <!-- Section 2: Hero with Promo -->
+    <section class="hero-promo">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Solusi IT Terbaik untuk Bisnis Anda</h1>
+                <p>Kami menyediakan layanan pengembangan software berkualitas tinggi dengan harga kompetitif. Mulai dari website hingga aplikasi enterprise.</p>
+                <button class="cta-button">Lihat Promo</button>
+            </div>
+            <div class="promo-slider">
+                <div class="promo-item active">
+                    <img src="images/promo1.jpg" alt="Promo 1">
+                    <p>Diskon 30% Website Company Profile</p>
+                </div>
+                <div class="promo-item">
+                    <img src="images/promo2.jpg" alt="Promo 2">
+                    <p>Paket Aplikasi Mobile Mulai 5jt</p>
+                </div>
+                <div class="promo-item">
+                    <img src="images/promo3.jpg" alt="Promo 3">
+                    <p>Gratis Domain 1 Tahun</p>
+                </div>
+                <div class="promo-item">
+                    <img src="images/promo4.jpg" alt="Promo 4">
+                    <p>Maintenance Bulanan</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Footer dengan About Us -->
+    <!-- Section 3: Products -->
+    <section class="products">
+        <div class="container">
+            <h2>Produk Kami</h2>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="Website Company Profile">
+                    <h3>Website Company Profile</h3>
+                    <p>Website profesional untuk memperkenalkan perusahaan Anda</p>
+                    <span class="price">Rp 3.500.000</span>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="E-Commerce">
+                    <h3>E-Commerce</h3>
+                    <p>Toko online lengkap dengan payment gateway</p>
+                    <span class="price">Rp 8.000.000</span>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="Mobile App">
+                    <h3>Mobile App</h3>
+                    <p>Aplikasi Android & iOS untuk bisnis Anda</p>
+                    <span class="price">Rp 12.000.000</span>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="images/product4.jpg" alt="ERP System">
+                    <h3>ERP System</h3>
+                    <p>Sistem terintegrasi untuk manajemen perusahaan</p>
+                    <span class="price">Rp 25.000.000</span>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <img src="images/product5.jpg" alt="Digital Marketing">
+                    <h3>Digital Marketing</h3>
+                    <p>Paket lengkap promosi online</p>
+                    <span class="price">Rp 5.000.000</span>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <img src="images/product6.jpg" alt="Cloud Hosting">
+                    <h3>Cloud Hosting</h3>
+                    <p>Hosting cepat dengan uptime 99.9%</p>
+                    <span class="price">Rp 500.000/bln</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 4: Portfolio -->
+    <section class="portfolio">
+        <div class="container">
+            <h2>Klien Kami</h2>
+            <div class="client-slider">
+                <div class="client-logo"><img src="images/client1.png" alt="Client 1"></div>
+                <div class="client-logo"><img src="images/client2.png" alt="Client 2"></div>
+                <div class="client-logo"><img src="images/client3.png" alt="Client 3"></div>
+                <div class="client-logo"><img src="images/client4.png" alt="Client 4"></div>
+                <div class="client-logo"><img src="images/client5.png" alt="Client 5"></div>
+                <div class="client-logo"><img src="images/client6.png" alt="Client 6"></div>
+                <div class="client-logo"><img src="images/client7.png" alt="Client 7"></div>
+                <div class="client-logo"><img src="images/client8.png" alt="Client 8"></div>
+                <div class="client-logo"><img src="images/client9.png" alt="Client 9"></div>
+                <div class="client-logo"><img src="images/client10.png" alt="Client 10"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 5: Footer -->
     <footer>
         <div class="container">
-            <div class="about-us">
-                <h2>Tentang Kami</h2>
-                <p>
-                    PT. BPKI adalah perusahaan IT terkemuka yang menyediakan layanan pengembangan web, aplikasi mobile, dan solusi cloud. 
-                    Kami berkomitmen untuk memberikan inovasi teknologi terbaik sejak 2010.
-                </p>
+            <div class="footer-content">
+                <div class="about-us">
+                    <h3>Tentang Kami</h3>
+                    <p>PT. BPKI adalah perusahaan pengembangan software profesional yang telah berdiri sejak 2010. Kami berkomitmen memberikan solusi IT terbaik untuk membantu bisnis Anda tumbuh.</p>
+                </div>
+                <div class="contact-info">
+                    <h3>Kontak Kami</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Jl. Teknologi No. 123, Jakarta</p>
+                    <p><i class="fas fa-phone"></i> (021) 12345678</p>
+                    <p><i class="fas fa-envelope"></i> info@bpki.co.id</p>
+                </div>
             </div>
-            <p class="copyright">&copy; 2023 PT. BPKI. All Rights Reserved.</p>
+            <div class="copyright">
+                <p>&copy; 2023 PT. BPKI. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
